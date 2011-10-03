@@ -1,0 +1,3 @@
+How many potatoes can you peel in 1 hour?
+For how many hours do you plan to peel potatoes?
+You will peel 12 potatoes.
