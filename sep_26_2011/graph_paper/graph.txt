@@ -1,0 +1,21 @@
+How many rows (e.g., 10)? 
+How many columns (e.g., 10)? 
+How many characters wide is each column?
+How many characters high is each row?
+Graph paper with 4 rows, 5 columns, 6 characters per column, 3 characters per row: 
++------+------+------+------+------
+|      |      |      |      |      
+|      |      |      |      |      
+|      |      |      |      |      
++------+------+------+------+------
+|      |      |      |      |      
+|      |      |      |      |      
+|      |      |      |      |      
++------+------+------+------+------
+|      |      |      |      |      
+|      |      |      |      |      
+|      |      |      |      |      
++------+------+------+------+------
+|      |      |      |      |      
+|      |      |      |      |      
+|      |      |      |      |      
