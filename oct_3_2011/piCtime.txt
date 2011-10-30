@@ -1,0 +1,6 @@
+my machine took about
+3
+seconds to compute 100,000,000 loops WITHOUT computing the square root.
+and about 
+4.5 
+seconds with.
