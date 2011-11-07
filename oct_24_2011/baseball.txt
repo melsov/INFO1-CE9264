@@ -1,0 +1,7 @@
+=-=-=-=BASEBALL GAME SIMULATOR=-=-=-=
+Casey made an out
+Bloomfield got a hit
+Barry made an out
+Canseco got a hit
+Pujols made an out
+The inning is over
