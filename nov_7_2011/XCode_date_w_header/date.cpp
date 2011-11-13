@@ -4,6 +4,8 @@
 #include "date.h"
 using namespace std;
 
+/* Matthew Poindexter.  HW 2.4 a/b and 2.5 a for CPP part I */
+
 const int date_length[] = {
 	0,   //dummy element so that January will have subscript 1
 	31,   //January

@@ -1,6 +1,8 @@
 #ifndef DATEH
 #define DATEH
 
+/* Matthew Poindexter HW 2.4 a/b and 2.5 a for CPP part I */
+
 using namespace std;
 
 class date {
