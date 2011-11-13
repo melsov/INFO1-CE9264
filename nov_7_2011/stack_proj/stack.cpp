@@ -3,6 +3,8 @@
 #include "stack.h"
 using namespace std;
 
+/* Matthew Poindexter.  HW 2.6 a/b for CPP Part I  */
+
 stack::stack(const stack& another)
 {
 	for (size_t i =0; i < stack_max_size; ++i) {

@@ -2,6 +2,8 @@
 #define STACKH
 #include <cstddef>   //for size_t
 
+/* Matthew Poindexter. HW 2.6 a/b for CPP part I */
+
 const size_t stack_max_size = 100;
 
 class stack {
