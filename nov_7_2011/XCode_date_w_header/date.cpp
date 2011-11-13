@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cstdlib>
+#include <ctime>
 #include "date.h"
 using namespace std;
 
@@ -21,6 +22,25 @@ const int date_length[] = {
 
 date::date(int initial_month, int initial_day, int initial_year)
 {
+	init(initial_month, initial_day, initial_year);
+}
+
+date::date()
+{
+	const time_t t = time(0);
+	
+	if (t==static_cast<time_t> (-1)) {
+		cout << "Setting the day to January 1 in the year 0 because time failed";
+		init(1, 1, 0);
+	}
+	
+	const tm *const p = localtime(&t);
+	
+	init(p->tm_mon + 1, p->tm_mday, p->tm_year + 1900);
+}
+
+void date::init(int initial_month, int initial_day, int initial_year)
+{
 	if (initial_month < 1 || initial_month > 12) {
 		cerr << "bad month " << initial_month << "/" << initial_day
 		<< "/" << initial_year << "\n";
@@ -37,7 +57,7 @@ date::date(int initial_month, int initial_day, int initial_year)
 	
 	for (day += initial_day; --initial_month > 0; day += date_length[initial_month]) {
 	}
-
+	
 }
 
 void date::print() const
